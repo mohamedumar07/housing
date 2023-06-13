@@ -1,0 +1,42 @@
+.inputBox{
+    width: 25%;
+    margin: auto;
+    border: 5px solid black;
+    padding: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+    position: relative;
+    top: 40px;
+    line-height: 30px;
+    padding-left: 30px;
+    background-color: rgb(237, 225, 63);
+}
+
+:root{
+    background-image: url("affordable-housing-policy-2021.png");
+}
+
+#annualSalary{
+    position: relative;
+    left: 30px;
+}
+
+#totalCost{
+    position: relative;
+    left: 7px;
+}
+
+#savingPortion{
+    position: relative;
+    left: 35px;
+}
+
+button{
+    position: relative;
+    left: 150px;
+}
+
+button:hover{
+    background-color: rgba(123, 123, 227, 0.477);
+    cursor: pointer;
+}
